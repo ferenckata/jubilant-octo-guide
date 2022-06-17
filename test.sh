@@ -3,7 +3,7 @@ echo "hello world"
 
 x=$1
 
-if [[ $x > 2 ]] ; then 
+if [[ $x < 2 ]] ; then 
 echo "pass"
 exit 0
 else
