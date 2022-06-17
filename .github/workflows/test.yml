@@ -1,0 +1,8 @@
+name: my_CI
+on:
+  push
+jobs:
+  - name: chekcout repository
+    uses: actions/checkout@v3
+  - name: run test
+    run: ${{ github.workspace }}/jubilant-octo-guide/test.sh 3
